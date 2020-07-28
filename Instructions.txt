@@ -1,0 +1,10 @@
+Requirements-
+Python 3.6 and above
+mysql-connector-python
+PyQt5
+MySQL downloaded, installed and configured with a username (even 'root' will suffice)
+
+1) Import cricketfantasy.sql using MySQL Workbench... Go to->Server->Data Import-> And select the folder where this file is saved
+2) In all .py files, change mysql connector password to your connection password for root@localhost. If none, then simply put passwd = ''
+3) sql.py is for testing the code for connections. Here, you can try your connection and if everything works fine.
+3) Main.py is the main file. Just run it and enjoy the game!!
